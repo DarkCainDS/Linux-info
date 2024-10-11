@@ -1,0 +1,70 @@
+Comandos Basicos de la terminal:
+
+ls:	ls *.text:todos_los_txt	
+Listar archivos
+
+ls -l:
+Permisos
+
+ls -lh:
+Listar archivos para ver su peso de una manera mas mas legible
+
+ls -a:
+Listar archivos ocultos:
+
+pwd:
+Identificar la ruta en la que estamos en nuestro sistema:
+
+cd:
+Movernos entre directorios:
+
+mkdir:
+Crear un directorio:
+
+cp
+Copiar un archivo:
+
+rm  || rm -r:Borrar directorios  || rm -rf:FORCE
+Borrar un archivo:
+
+mv
+Mover un archivo:
+
+rmdir
+Borrar un directorio:
+
+clear
+Limpiar la terminal
+
+head 'nombre de archivo.txt.' -n 15:
+Muestra las primeras 15 lineas
+
+tail'nombre de archivo.txt.' -n 20:
+Muestra las ultimas 20 lineas
+
+alias temporal o siempre; alias l="ls -lh":
+Para crear alias para algunos comandos
+
+help cd:
+ayuda
+
+man cd:
+manual del cd
+
+whatis cd, pwd, alias :
+sirve para dar especificaiones para que es cada comando
+
+chmod:revisar tabla
+cambiar permisos de usario world etc.
+
+chmod u-r mitexto.txt
+quitar permiso
+
+chmod u+r mitexto.txt
+dar permiso a user
+
+find ./ -name file
+buscar archivos
+
+wich:
+sirve para buscar la ruta

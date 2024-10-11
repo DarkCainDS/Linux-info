@@ -1,0 +1,7 @@
+ps
+mostrar procesos.
+
+kill pid:
+eliminar procesos por id.
+
+top

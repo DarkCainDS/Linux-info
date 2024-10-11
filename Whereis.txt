@@ -1,0 +1,5 @@
+Hay otro comando que no se vio en esta clase MUY interesante 👀.
+.
+Este es el comando whereis (en español: ¿dónde está?), este comando es algo similar a which, pero mucho mejor. Este comando localiza los ficheros binarios, fuentes y páginas del manual de un programa, es decir, podemos decir que hace algo así como una “búsqueda mucho más profunda”, me encanta porque puedes saberlo casi todo sobre la ubicación de un programa 😄.
+.
+Adicionalmente, find es uno de esos comandos que más amo con toda mi vida, ya puse un ejemplo usando find en una clase anterior, pero es que es un comando muy bueno! A modo de anécdota, una vez me pasaron un archivo… escondido entre un montón de carpetas, sí, una carpeta dentro de otra, dentro de otra, y al lado otras 10 carpetas más… ¿qué hice? usé el comando find 👀. Ventajas se saber usar la terminal, ¡y ahora tú también sabes usarla! 😄

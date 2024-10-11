@@ -1,0 +1,14 @@
+tar -cvf ToCompress.tar  myFiles.txt:
+comprimir tar.
+
+tar -cvf ToCompress.tar.gz  myFiles.txt:
+comprimir gz
+
+tar -xzvf ToCompress.tar.gz
+descomprimir gz
+
+zip -r ToCompressInZip.zip ToCompress
+comprimir en zip.
+
+unzip ToCompressInZip.zip:
+descomprimir zip.

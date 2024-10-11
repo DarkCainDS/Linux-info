@@ -1,0 +1,30 @@
+ifconfig:
+info de la red (ip,mask,etc).
+
+ping www.google.com:
+permite ver si estan funcionando las pags y tiempo y otras cosas.
+
+curl www.google.com 	curl www.google.com > index.html:copiar el html de "gooogle":
+Traer el html.
+
+wget www.google.com
+traer html.
+
+traceroute www.google.com 
+ver las rutas por las cuales pasan la conexion.
+
+netsta -i:
+Ver los dispositivos en la red.
+
+Apuntes:
+$ ifconfig // sirve para ver la mascara de red, puerto de transmisión, tarjeta de red, etc
+
+$ ping // nos muestra si una ip o pagina, esta activa, si salen paquetes es porque hay conexión.
+
+$ curl pagina_web// podemos traer el html de una pagina, podríamos guardarlo con el estándar output.
+
+$ wget pagina_web // nos descarga el archivo html, pero con formato.
+
+$ traceroute pagina_web // nos sirve para ver por cuales computadoras tenemos que ir pasando para llegar por ejemplo a una pagina web. Ejemplo, nos saldrán las ip que tenemos que pasar para llegar a la pagina que queremos.
+
+$ netstat –i // nos muestra los dispositivos de red.

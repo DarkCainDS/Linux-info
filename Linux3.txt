@@ -1,0 +1,41 @@
+Un comando es un mensaje enviado al ordenador que provoca una respuesta en este sistema y se comporta como una orden, pues informa al dispositivo informático que debe ejecutar una acción según la indicación que pueda enviarse.
+
+Cada sistema operativo incorpora un determinado número de comandos básicos, que permiten ejecutar las tareas más simples con órdenes directas. A continuación conocerás todo lo relacionado con sistemas operativos basados en UNIX y sus comandos básicos en la terminal.
+
+Un comando pueden significar cuatro cosas:
+
+Un programa ejecutable
+Un comando de utilidad de la shell. Esto es un programa en sí mismo, que puede tener funciones. Ejemplo cd
+Una función de shell. Son funciones de shell externas al comando de utilidad. Ejemplo mkdir
+Un alias. Un ejemplo es ls
+que-es-un-comando.jpg
+
+Ejemplos de comandos básicos de la terminal
+Ahora conocerás varios tipos de comandos que puedes aplicar en el proyecto que estás realizando.
+
+type <comando>: Nos permite conocer qué tipo de comando es 🤔.
+alias l="<secuencia de comandos>": Nos permite crear comandos. Son temporales, se borran al cerrar la terminal 👶🏼.
+help <comando>: Nos permite consultar un poco de documentación de un comando 📄.
+man <comando>: De manual, nos permite conocer mucha más información de un comando.
+info <comando>: Similar al anterior, pero un poco resumido y con otro formato.
+whatis <comando>: Describe un comando en una sola línea ☺️. No funciona con todos.
+¿Cómo puedo saber qué comando estoy utilizando?
+Puedes introducir type ls para ver qué tipo de comando es ls.
+
+Ahora, podemos crear nuestro propio comando con un alias llamado l:
+
+``` alias l="ls -lh"
+
+```
+
+Podemos invocar a nuestro nuevo comando lcada vez que lo necesitemos y se ejecutará lo que está entre comillas, ¿cuál es el problema?
+
+Si cerramos y volvemos a abrir la terminal, este alias se pierde.
+
+Puedes implementar zsh, y pues ni el comando help ni man con cd, pero el comando man sí me funciona con git y otros comandos.
+
+Un que se menciona en este recurso es:
+
+whatis ls el cual nos dirá qué tipo de comando y qué hace ls.
+
+Contribución creada con los aportes de: Leonard L, Gabriel Missael Barco y Mauricio Carrasco
